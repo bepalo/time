@@ -1,0 +1,42 @@
+{
+  "name": "@bepalo/time",
+  "version": "1.2.6",
+  "description": "A fluent time expression utility library to use like `Time.in(1).Week`",
+  "author": "Natnael Eshetu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bepalo/time.git"
+  },
+  "homepage": "https://github.com/bepalo/time#readme",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/cjs/index.js",
+    "types": "./dist/index.d.ts"
+  },
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "build": "npm run build:esm && npm run build:cjs",
+    "prepare": "npm run build",
+    "test": "vitest --reporter=dot",
+    "test:ci": "vitest run --reporter=vitest-markdown-reporter --outputFile=test-result.md"
+  },
+  "keywords": [
+    "time",
+    "timestamp",
+    "duration",
+    "express",
+    "utility",
+    "jsonwebtoken"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^1.0.0",
+    "vitest-markdown-reporter": "^0.1.2"
+  },
+  "packageManager": "pnpm@10.12.1"
+}
