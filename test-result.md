@@ -2,16 +2,16 @@
 
 | 🕙 Start time | ⌛ Duration |
 | --- | ---: |
-| 7/4/2025, 7:25:17 AM | 0.458 s |
+| 7/19/2025, 2:31:33 AM | 0.501 s |
 
 | | ✅ Passed | ❌ Failed | ⏩ Skipped | 🚧 Todo | ⚪ Total |
 | --- | ---: | ---: | ---: | ---: | ---: |
 |Test Suites|2|0|0|0|2|
 |Tests|27|0|0|0|27|
 
-## ✅ <a id="file0" href="#file0">test/index.test.ts</a>
+## ✅ <a id="file0" href="#file0">test/index.test.ts</a> [[link](https://github.com/bepalo/time/blob/823a5e41f9f505a657c93d02ef8cb84b893f2f53/test/index.test.ts)]
 
-27 passed, 0 failed, 0 skipped, 0 todo, done in 6 s
+27 passed, 0 failed, 0 skipped, 0 todo, done in 5 s
 
 ```
 ✅ Time API coverage

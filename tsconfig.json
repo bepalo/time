@@ -1,17 +1,16 @@
-// tsconfig.cjs.json
 {
   "compilerOptions": {
     "target": "ES2015",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
-    "outDir": "dist/cjs",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
+    "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "strict": true
+    "skipLibCheck": true
   },
   "include": ["src"]
 }

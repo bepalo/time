@@ -1,0 +1,51 @@
+{
+  "name": "@bepalo/time",
+  "version": "1.2.7",
+  "exports": {
+    "./mod.ts": "./mod.ts"
+  },
+  "description": "A fluent time expression utility library to use like `Time.in(1).Week`",
+  "author": "Natnael Eshetu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bepalo/time.git"
+  },
+  "homepage": "https://github.com/bepalo/time#readme",
+  "compilerOptions": {
+    "strict": true
+  },
+  "lint": {
+    "include": ["./src/", "./tests/"],
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": ["no-sloppy-imports"]
+    }
+  },
+  "fmt": {
+    "include": ["./src/", "./tests/"],
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "singleQuote": false,
+    "proseWrap": "preserve"
+  },
+  "test": {
+    "files": {
+      "exclude": ["tests/**", "**/*.vitest.ts"]
+    }
+  },
+  "imports": {
+    "@bepalo/time": "./src/index.ts"
+  },
+  "keywords": [
+    "time",
+    "timestamp",
+    "duration",
+    "fluent",
+    "express",
+    "expression",
+    "time expression",
+    "utility",
+    "jsonwebtoken"
+  ]
+}

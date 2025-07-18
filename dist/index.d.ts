@@ -500,3 +500,4 @@ export declare class RelativeTime {
      */
     get Years(): number;
 }
+//# sourceMappingURL=index.d.ts.map
