@@ -1,10 +1,8 @@
 /**
- *
  * A time utility function to define time in an expressive manner.
  *
  * Provides `Time.[every, on, in, after, before]` static methods and
  * `Time.[Seconds, Minutes, Hours, Days, Weeks, Years]`
- *
  *
  * Eg.
  *   `Time.for(1).Day`
@@ -13,18 +11,16 @@
  *   `Time.before(5).days.from(Time.now())`
  *   `Time.after(3).minutes.and(20).seconds.and(30).Milliseconds`
  *
- * @module time
+ * @module @bepalo/time
  * @exports Time class
  * @exports RelativeTime class
  * @exports TimeValue class
- *
  */
 /**
  * Time value utility class to provide extended functionality
- *
  */
 export declare class TimeValue extends Number {
-    constructor(value: any);
+    constructor(value: number);
     /**
      * Get the time in milliseconds
      */
