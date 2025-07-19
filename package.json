@@ -1,6 +1,6 @@
 {
   "name": "@bepalo/time",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "A fluent time expression utility library to use like `Time.in(1).Week`",
   "author": "Natnael Eshetu",
   "license": "MIT",

@@ -10,34 +10,33 @@
 
 A fluent time expression utility library for use like `Time.in(1).Week`.
 
-## 📥 Get Started
+## 🚀 Get Started
 
+### 📥 Installation
 
-Bun:
+**Node.js / Bun (npm / pnpm / yarn)**
 
-```bash
+```sh
 bun add @bepalo/time
-```
-
-Pnpm:
-
-```bash
+# or
 pnpm add @bepalo/time
-```
-
-Npm
-
-```bash
+# or
 npm install @bepalo/time
+# or
+yarn add @bepalo/time
 ```
 
-Deno:
+**Deno**
 
-```bash
-import { Time } from "jsr:@bepalo/time"
+```ts
+Import directly using the URL:
+
+import { Time } from "npm:@bepalo/time";
+// or
+import { Time } from "jsr:@bepalo/time";
 ```
 
-## ✅ Usage
+## 📦 Basic Usage
 
 ```js
 import { Time } from "@bepalo/time";
@@ -77,3 +76,21 @@ Time.for(1).year.and(11).weeks._y; // in years
 ## 🕊️ Thanks and Enjoy
 
 If you like this library and want to support then please give a star on [GitHub](https://github.com/bepalo/time).
+
+## 💖 Be a Sponsor
+
+Fund me so I can give more attention to the products and services you liked.
+
+<p align="left">
+  <a href="https://ko-fi.com/natieshzed" target="_blank">
+    <img height="32" src="https://img.shields.io/badge/Ko--fi-donate-orange?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi Badge"> 
+  </a>
+  <br/> 
+  <a href="https://bybit.com" target="_blank"> 
+    <img height="32" src="https://img.shields.io/badge/ByBit-UID%3A%20225636163-blueviolet?style=for-the-badge&logo=bitcoin&logoColor=white" alt="ByBit UID"> 
+  </a> 
+  <br/>
+  <a href="https://www.blockchain.com/btc/address/16wLsJMVC9znDrFQCYFhVfpHwLofx8foqS" target="_blank"> 
+    <img height="32" src="https://img.shields.io/badge/BTC-16wLsJMVC9znDrFQCYFhVfpHwLofx8foqS-orange?style=for-the-badge&logo=bitcoin&logoColor=white" alt="BTC Wallet"> 
+  </a> 
+</p>
