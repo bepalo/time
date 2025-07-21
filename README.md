@@ -1,11 +1,11 @@
 # 🏆 @bepalo/time
 
 [![npm version](https://img.shields.io/npm/v/@bepalo/time.svg)](https://www.npmjs.com/package/@bepalo/time)
-[![CI](https://github.com/bepalo/time/actions/workflows/ci.yaml/badge.svg)](https://github.com/bepalo/time/actions)
-[![Tests](https://img.shields.io/github/actions/workflow/status/bepalo/time/ci.yaml?label=tests&style=flat-square)](https://github.com/bepalo/time/actions/workflows/ci.yaml.yml)
+[![jsr](https://img.shields.io/badge/jsr-%40bepalo%2Ftime-blue?logo=deno&label=jsr)](https://jsr.io/@bepalo/time)
+[![github](https://img.shields.io/badge/github-bepalo%2Ftime-181717?logo=github)](https://github.com/bepalo/time)
+[![tests](https://img.shields.io/github/actions/workflow/status/bepalo/time/testing.yaml?label=tests)](https://github.com/bepalo/time/actions/workflows/testing.yaml.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/bepalo/time/ci.yaml?label=CI)](https://github.com/bepalo/time/actions/workflows/ci.yaml.yml)
 [![license](https://img.shields.io/npm/l/@bepalo/time.svg)](LICENSE)
-
-
 [![Vitest](https://img.shields.io/badge/vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)](test-result.md)
 
 A fluent time expression utility library for use like `Time.in(1).Week`.
